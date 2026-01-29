@@ -1,0 +1,28 @@
+title: Kejie's Blog
+description: Builder · Investor · AI Enthusiast
+author: Kejie
+url: "https://kejie1024.github.io"
+baseurl: ""
+
+# 主题
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+  - jekyll-remote-theme
+
+# 构建设置
+markdown: kramdown
+highlighter: rouge
+permalink: /:year/:month/:day/:title/
+
+# 导航
+nav:
+  - name: Home
+    link: /
+  - name: Blog
+    link: /blog
+  - name: About
+    link: /about
+
+# 社交链接
+social:
+  github: kejie1024
